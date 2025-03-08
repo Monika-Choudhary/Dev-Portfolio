@@ -12,6 +12,6 @@ Welcome to my portfolio! This project showcases my skills as a full-stack develo
 
 ### 🛠️ Technologies Used
 
-- ***Frontend:*** React, TypeScript, Tailwind CSS
+- **Frontend:** React, TypeScript, Tailwind CSS
 - **Build Tool:** Vite
-- **Deployment:** GitHub Pages 
+- **Deployment:** GitHub Pages
