@@ -6,7 +6,7 @@ function NavBar() {
       <NavLink
         to="/"
         className={({ isActive }) =>
-          isActive ? "bg-fuchsia-900 p-2" : "text-white"
+          isActive ? "bg-fuchsia-700 p-2" : "text-white"
         }
         end
       >
@@ -15,7 +15,7 @@ function NavBar() {
       <NavLink
         to="/about-me"
         className={({ isActive }) =>
-          isActive ? "bg-fuchsia-900 p-2" : "text-white"
+          isActive ? "bg-fuchsia-700 p-2" : "text-white"
         }
         end
       >
@@ -24,7 +24,7 @@ function NavBar() {
       <NavLink
         to="/my-projects"
         className={({ isActive }) =>
-          isActive ? "bg-fuchsia-900 p-2" : "text-white"
+          isActive ? "bg-fuchsia-700 p-2" : "text-white"
         }
         end
       >
@@ -33,7 +33,7 @@ function NavBar() {
       <NavLink
         to="/contact"
         className={({ isActive }) =>
-          isActive ? "bg-fuchsia-900 p-2" : "text-white"
+          isActive ? "bg-fuchsia-700 p-2" : "text-white"
         }
         end
       >
