@@ -5,6 +5,7 @@ import AllRoutes from "./routing/AllRoutes";
 import SocialMediaLinks from "./components/SocialMediaLinks";
 import Footer from "./components/Footer";
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -12,6 +13,7 @@ function App() {
         <NavBar />
         <main className="flex-grow">
           <SocialMediaLinks />
+        
           <AllRoutes />
         </main>
         <Footer />
