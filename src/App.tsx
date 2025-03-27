@@ -3,13 +3,19 @@ import "./App.css";
 import NavBar from "./navigation/NavBar";
 import AllRoutes from "./routing/AllRoutes";
 import SocialMediaLinks from "./components/SocialMediaLinks";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <BrowserRouter>
-      <NavBar />
-      <SocialMediaLinks />
-      <AllRoutes />
+      <div className="flex flex-col min-h-screen">
+        <NavBar />
+        <main className="flex-grow">
+          <SocialMediaLinks />
+          <AllRoutes />
+        </main>
+        <Footer />
+      </div>
     </BrowserRouter>
   );
 }
