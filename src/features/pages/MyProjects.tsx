@@ -15,7 +15,9 @@ const GitHubProjects = () => {
   useEffect(() => {
     const fetchRepos = async () => {
       try {
-        const response = await fetch("https://api.github.com/users/Monika-Choudhary/repos");
+        const response = await fetch(
+          "https://api.github.com/users/Monika-Choudhary/repos"
+        );
         const data = await response.json();
 
         // Fetch languages for each repository
