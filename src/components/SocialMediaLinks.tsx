@@ -3,7 +3,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 
 function SocialMediaLinks() {
   return (
-    <div className="absolute top-1/2 right-5 transform -translate-y-1/2 flex flex-col items-end space-y-5">
+    <div className="text-rosegold  absolute top-1/2 right-5 transform -translate-y-1/2 flex flex-col items-end space-y-5">
       <a href="" target="blank">
         <FaLinkedinIn className="icon-size" />
       </a>
