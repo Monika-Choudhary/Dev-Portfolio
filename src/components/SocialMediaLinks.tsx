@@ -16,10 +16,8 @@ function SocialMediaLinks() {
         <a href="https://github.com/Monika-Choudhary" target="_blank">
           <FaGithub className="icon-size" />
         </a>
-      </div>
-      <div className=" hidden md:block md:absolute md:bottom-75 right-6 transform rotate-90 origin-top-right">
         <a href="mailto:monikakauchoudhary@gmail.com">
-          monikakauchoudhary@gmail.com
+          <FaEnvelope className="icon-size" />
         </a>
       </div>
       {/* Mobile view */}
