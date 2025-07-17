@@ -17,7 +17,7 @@ function SocialMediaLinks() {
           <FaGithub className="icon-size" />
         </a>
       </div>
-      <div className=" hidden md:block md:absolute md:bottom-1/11 right-6 transform rotate-90 origin-top-right">
+      <div className=" hidden md:block md:absolute md:bottom-75 right-6 transform rotate-90 origin-top-right">
         <a href="mailto:monikakauchoudhary@gmail.com">
           monikakauchoudhary@gmail.com
         </a>
