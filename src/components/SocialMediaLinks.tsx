@@ -1,18 +1,42 @@
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
+import { FaEnvelope } from "react-icons/fa";
 
 function SocialMediaLinks() {
   return (
-    <div className="absolute top-1/2 right-5 transform -translate-y-1/2 flex flex-col items-end space-y-5">
-      <a href="https://www.linkedin.com/in/monikakaurchoudhary" target="blank">
-        <FaLinkedinIn className="icon-size" />
-      </a>
-      <a href="https://github.com/Monika-Choudhary" target="_blank">
-        <FaGithub className="icon-size" />
-      </a>
-      <a href="mailto:monikakaurchoudhary@gmail.com" className="rotate-90">
-        monikakaurchoudhary@gmail.com
-      </a>
+    <div className="">
+      <div className=" hidden md:flex absolute top-1/2 right-5 flex-col items-center space-y-5 text-white -translate-y-1/2">
+        <a
+          href="https://www.linkedin.com/in/monikakaurchoudhary"
+          target="blank"
+        >
+          <FaLinkedinIn className="icon-size" />
+        </a>
+        <a href="https://github.com/Monika-Choudhary" target="_blank">
+          <FaGithub className="icon-size" />
+        </a>
+      </div>
+      <div className=" hidden md:block md:absolute md:bottom-1/11 right-6 transform rotate-90 origin-top-right">
+        <a href="mailto:monikakauchoudhary@gmail.com">
+          monikakauchoudhary@gmail.com
+        </a>
+      </div>
+      {/* Mobile Ansicht */}
+      <div className="flex md:hidden fixed bottom-5 left-1/2 tranform -translate-x-1/2 space-x-5 bg-fuchsia-800 p-3 w-35 justify-center rounded-lg">
+      {/* flex md:hidden fixed bottom-5 left-0 right-0 justify-center space-x-5 bg-gray-800 p-3 rounded-t-lg */}
+        <a
+          href="https://www.linkedin.com/in/monikakaurchoudhary"
+          target="blank"
+        >
+          <FaLinkedinIn className="text-white text-2xl" />
+        </a>
+        <a href="https://github.com/Monika-Choudhary" target="_blank">
+          <FaGithub className="text-white text-2xl" />
+        </a>
+        <a href="mailto:monikakauchoudhary@gmail.com">
+          <FaEnvelope className="text-white text-2xl" />
+        </a>
+      </div>
     </div>
   );
 }
