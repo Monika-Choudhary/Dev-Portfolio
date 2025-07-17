@@ -4,7 +4,8 @@ import { FaEnvelope } from "react-icons/fa";
 
 function SocialMediaLinks() {
   return (
-    <div className="">
+    <div>
+      {/* Desktop view */}
       <div className=" hidden md:flex absolute top-1/2 right-5 flex-col items-center space-y-5 text-white -translate-y-1/2">
         <a
           href="https://www.linkedin.com/in/monikakaurchoudhary"
@@ -21,9 +22,8 @@ function SocialMediaLinks() {
           monikakauchoudhary@gmail.com
         </a>
       </div>
-      {/* Mobile Ansicht */}
+      {/* Mobile view */}
       <div className="flex md:hidden fixed bottom-5 left-1/2 tranform -translate-x-1/2 space-x-5 bg-fuchsia-800 p-3 w-35 justify-center rounded-lg">
-      {/* flex md:hidden fixed bottom-5 left-0 right-0 justify-center space-x-5 bg-gray-800 p-3 rounded-t-lg */}
         <a
           href="https://www.linkedin.com/in/monikakaurchoudhary"
           target="blank"
