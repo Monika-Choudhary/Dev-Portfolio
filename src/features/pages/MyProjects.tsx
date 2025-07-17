@@ -53,10 +53,10 @@ const GitHubProjects = () => {
             >
               {repo.name}
             </a>
-            <p className="text-gray-600 mt-2">
+            <p className=" mt-2">
               {repo.description || "No description available"}
             </p>
-            <div className="text-sm text-gray-500">
+            <div className="text-sm ">
               Languages: {repo.languages.join(", ") || "No languages available"}
             </div>
           </li>

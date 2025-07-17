@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-      <footer className="text-center p-4 text-white">
+      <footer className="text-center ">
         © {new Date().getFullYear()} Monika Kaur Choudhary. All rights reserved.
       </footer>
     );
