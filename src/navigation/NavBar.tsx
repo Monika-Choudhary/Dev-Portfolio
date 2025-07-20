@@ -10,9 +10,9 @@ function NavBar() {
   };
 
   return (
-    <nav className="relative  text-white">
+    <nav className="relative  shiny-text">
       {/* Desktop Navbar */}
-      <h1 className="text-lg font-bold hidden md:flex justify-center ">Monika Kaur Choudhary</h1>
+      <h1 className="text-2xl font-playfair uppercase hidden md:flex justify-center shiny-text ">Monika Kaur Choudhary</h1>
       <div className=" hidden md:flex justify-center space-x-10 p-4 m-5">
         <NavLink
           to="/"
